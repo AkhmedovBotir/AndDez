@@ -1,0 +1,65 @@
+@import "../variables"
+
+.aboutTitle
+    font-size: 3rem
+    font-weight: 800
+    color: $textColor
+
+i,
+svg
+    color: red
+    font-size: 5rem
+
+.about-main
+    width: 100%
+    display: flex
+    justify-content: space-between
+    .about-content
+        width: 30%
+
+.about-content
+    .about-sub
+        color: #676d83
+        font-weight: 400
+
+@media (max-width: 1024px)
+    .row
+        width: 100% !important
+    .about-main
+        flex-direction: column !important
+        align-items: center !important
+        justify-content: center !important
+        width: 100% !important
+        .about-content
+            display: flex
+            flex-direction: column
+            align-items: center
+            width: 100% !important
+            margin: 2vh 0
+            padding: 2vh
+            border-radius: 20px
+            border: 2px solid $textColor
+            .about-sub
+                width: 70%
+                text-align: center
+
+@media (max-width: 576px)
+    .container
+        .aboutTitle
+            font-size: 2rem
+        .about-main
+            width: 100% !important
+            flex-direction: column !important
+            align-items: center !important
+
+@media (max-width: 397px)
+    .container
+        .aboutTitle
+            font-size: 1.5rem
+        .about-main 
+            .about-content
+                .about-title 
+                    font-size: 1.2rem !important
+                .about-sub
+                    font-size: .8rem !important
+                    width: 90%

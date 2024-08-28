@@ -1,0 +1,99 @@
+@import ../variables
+.footer
+    height: 20rem
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    .footer-content
+        width: 100%
+        height: 10rem
+        display: flex
+        justify-content: space-between
+        .footer-left
+            width: 45%
+            display: flex
+            align-items: center
+            justify-content: center
+            flex-direction: column
+            img
+                width: 15rem
+            p
+                text-align: center
+                color: $navColor
+                font-weight: 600
+        .footer-right
+            width: 30%
+            display: flex
+            flex-direction: column
+            justify-content: center
+            a
+                display: flex
+                align-items: center
+                font-size: 1.2rem
+                text-decoration: none
+                font-weight: 600
+                color: $navColor
+                i
+                    font-size: 1.5rem
+                    margin-right: 10px
+    .social
+        width: 100%
+        display: flex
+        justify-content: center
+        border-bottom: 1px solid $textColor
+        a
+            margin: 0 1rem
+            i
+                font-size: 1.5rem
+    p
+
+        color: $textColor
+        text-align: center
+
+@media (max-width: 1024px)
+    .footer-right
+        width: 40% !important
+        a
+            span
+                font-size: 1rem
+
+@media (max-width: 992px)
+    .footer
+        height: 50vh
+        .footer-content
+            height: auto
+            flex-direction: column-reverse
+            .footer-left
+                margin: 1vh 0
+            .footer-left,
+            .footer-right
+                width: 100%
+
+@media (max-width: 768px)
+    .footer
+        .footer-content
+            align-items: flex-start
+            .footer-right
+                margin-bottom: 2rem
+                width: 20rem
+                a
+                    width: 20rem
+                    span
+
+@media (max-width: 397px)
+    .footer
+        .footer-content
+            .footer-right
+                a
+                    padding-bottom: 1rem
+                    width: 10rem
+                    span,
+                    i
+                        font-size: .7rem !important
+            .footer-left
+                img
+                    width: 10rem
+                p
+                    font-size: .8rem !important
+        p
+            font-size: .8rem !important

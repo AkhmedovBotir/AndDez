@@ -1,0 +1,90 @@
+@import ../variables
+#gradient
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 50vh
+    background: linear-gradient(-45deg, #ee7752, #db5085, #23a6d5, #23d5ab)
+    background-size: 400% 400%
+    animation: gradient 10s ease infinite
+
+    @keyframes gradient
+        0%
+            background-position: 0% 50%
+
+        50%
+            background-position: 100% 50%
+
+        100%
+            background-position: 0% 50%
+
+    .container
+        height: 50vh
+        display: flex
+        justify-content: space-around
+        align-items: flex-end
+        img
+            width: 20rem
+        .form
+            background: rgba(255, 255, 255, 0.178)
+            backdrop-filter: blur(5px)
+            box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.137)
+            border: 1px solid rgba(255, 255, 255, 0.185)
+            border-radius: 20px
+            width: 30rem
+            position: relative
+            margin-bottom: -2.2rem
+            height: 60vh
+            display: flex
+            justify-content: space-around
+            flex-direction: column
+            h1
+                font-weight: 700
+            form
+                display: flex
+                flex-direction: column
+                font-size: 1.2rem
+                input
+                    letter-spacing: 2px
+                    font-weight: 600
+                    padding: 1rem 1.5rem
+                    outline: none
+                    border: none
+                    background: rgba(255, 255, 255, 0.693)
+                    box-shadow: 0 0 25px 5px rgba(0, 0, 0, 0.137)
+                    border-radius: 10px !important
+
+@media (max-width: 768px)
+    #gradient
+        .container
+            img
+                display: none
+            .form
+                padding: 2rem !important
+                h1
+                    text-align: center
+                    font-size: 1.5rem
+
+@media (max-width:397px)
+    #gradient
+        display: flex
+        align-items: center
+        justify-content: center
+        .container
+            display: flex
+            align-items: center
+            justify-content: center
+            .form
+                padding: 2rem !important
+                margin-top: -2rem
+                h1
+                    font-size: 1.2rem
+                form
+                    input
+                        font-size: 1rem !important
+
+@media (max-width: 320px)
+    #gradient
+        .container
+            .form
+                padding: 2vh !important

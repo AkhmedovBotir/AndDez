@@ -1,0 +1,107 @@
+@import ../variables
+
+.services-title
+    color: $navColor
+    font-weight: 400
+
+.services-content
+    display: flex
+    flex-direction: column
+    .services-card
+        display: flex
+        align-items: center
+        border-radius: 20px
+        border: 2.3px solid $textColor
+        img
+            width: 15rem
+        h3
+            color: $textColor
+            font-weight: 700
+        h5
+            color: $navColor
+
+.type-content
+    width: 100%
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    .type-card
+        width: 30%
+        height: 400px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        background-color: #f3f6f6
+        border-radius: 20px
+        .type-top
+            h3
+                font-weight: 700
+                color: $textColor
+            h6
+                font-size: 1rem
+                color: $navColor
+        .type-bottom
+            display: flex
+            align-items: flex-end
+            justify-content: space-between
+            img
+                width: 100px
+                border: 2px solid $textColor
+            button
+                font-size: 1.2rem
+                font-weight: 700
+
+@media (max-width: 1200px)
+    .type-card
+        width: 45% !important
+        .type-bottom
+            flex-direction: column-reverse
+            align-items: center !important
+            img
+                margin-bottom: 2vh
+
+@media (max-width: 1024px)
+    .services-content
+        .services-card
+            img
+                width: 10rem
+                margin-left: 0 !important
+
+@media (max-width: 768px)
+    .services-content
+        .services-card
+            flex-direction: column
+            img
+                margin: 0 !important
+                margin-bottom: 2vh !important
+            .services-main
+                h3
+                    font-size: 1.5rem
+                h5
+                    font-size: 1rem
+    .type-content
+        .type-card
+            width: 100% !important
+            margin: 1rem 0 !important
+            border: 1px solid $textColor
+
+@media (max-width: 397px)
+    .services-title
+        font-size: 1rem
+    .services-content
+        .services-card
+            padding: 3vh !important
+            .services-main
+                h3
+                    font-size: 1.2rem
+                h5
+                    font-size: .8rem
+    .type-content
+        .type-card
+            height: 350px
+            padding: 3vh !important
+            .type-top
+                h3
+                    font-size: 1.2rem
+                h6
+                    font-size: 0.8rem

@@ -1,0 +1,40 @@
+@import ../variables
+.accordion-item
+    width: 100%
+    border: 1px solid $textColor
+    .accordion-header
+        .collapsed
+            color: $textColor !important
+            box-shadow: $textColor 0px 0px 0px 0px !important
+            background-color: #fff !important
+            &::after
+                background-image: url("../../Img/down.png") !important
+                background-position: center !important
+                background-size: cover !important
+                width: 30px !important
+                height: 30px
+        .accordion-button
+            color: #fff
+            font-weight: 700
+            font-size: 1.2rem
+            background: $textColor
+            box-shadow: $textColor 1px 1px 10px 1px
+            &::after
+                background-image: url("../../Img/top.png")
+                background-position: center
+                background-size: cover
+                width: 30px
+                height: 30px
+@media (max-width: 1024px)
+    .faq
+        flex-direction: column
+        .aboutTitle
+            margin-bottom: 2rem
+        .accordion
+            width: 100%
+
+@media (max-width: 397px)
+    .accordion-button
+        font-size: 1rem !important
+    .accordion-collapse
+        font-size: .8rem !important
