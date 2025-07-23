@@ -1,0 +1,96 @@
+{
+  "navbar": {
+    "appTitle": "Dizenfeksiya",
+    "home": "Asosiy",
+    "services": "Xizmatlar",
+    "aboutUs": "Biz haqimizda",
+    "faq": "Faq"
+  },
+  "button":{
+    "btnText": "Bog'lanish"
+  },
+  "about": {
+      "title": "Dizenfeksiya xizmati",
+      "description": "Biz Toshkentda 10 yildan beri professional dezinfeksiya ishlarini olib boramiz, shuning uchun birinchi marta zararkunandalardan qanday qutulishni bilamiz."
+  },
+  "advantages": {
+    "title": "Afzalliklarimiz",
+    "fastService": "Tezda xizmat ko’rsatish",
+    "fastServiceDescription": "Arizalar kuniga 24 soat qabul qilinadi. Agar muammo shoshilinch bo‘lsa, biz darhol kеtishimiz mumkin. Shu bilan birga, sifat mukammal bo‘lib qoladi.",
+    "experiencedStaff": "Yetuk mutahasislaimiz",
+    "experiencedStaffDescription": "Bizning xodimlarimiz hamma narsaga g‘amxolik qiladi: hisob-kitoblar, xonani tayyorlash, qayta ishlash, yakuniy tozalash, ventilatsiya va nazorat tekshiruvi.",
+    "convenientTiming": "Sizga maqul vaqtda",
+    "convenientTimingDescription": "Siz o‘zingiz uchun maqul va qulay vaqtni tanlang va bizga murojat qiling. Sizga kafolatlangan va samarali natijani olib boramiz",
+    "featuredTitle": "Klapa va zararli hashorot endi yo’q deb hisoblang !!!",
+    "featuredDescription": "Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun"
+  },
+  "contact": {
+    "placeholderName": "Ismingizni kiriting",
+    "placeholderPhone": "Telefon raqamingizni kiriting",
+    "submitButtonText": "Yuborish",
+    "formTitle": "Malumotingizni qoldiring",
+    "errorName":"Ism 4 harfdan kam bo'lmasligi kerak!",
+    "errorPhone":"Telefon raqami xato!"
+  },
+  "faq": {
+    "title": "FAQ",
+    "question1": "Zararkunandalarni yo'q qilish qanday amalga oshiriladi?",
+    "answer1": "Mahsus asbob-uskunalar yerdamida insectitsidlar aerosolli tumanga aylanadi va devor kogozi, energiya va takhta mahsulotlari eng kichik bushliqlarga, kuzga kurinmas xasharotlar uchun potensial 'yashirish zhoilari' ga chiqadi.",
+    "question2": "Qanday jarayonlarda xizmat ko'rsatiladi?",
+    "answer2": "Xizmat ko'rsatish jarayonlari shunday bo'ladi: yangilash, tekshirish, davolash va baholash.",
+    "question3": "Xizmatlar qancha pul to'lash uchun?",
+    "answer3": "Xizmatlar narxlariga ta'sir qiladigan ko'plab omillar mavjud, masalan, joylashgan hudud, qulaylik va xizmat ko'rsatuvchi kompaniya narxi."
+  },
+  "guarante": {
+    "text": "Rasmiy kafolat - 1 yil. Biz jismoniy va yuridik shaxslarga xizmat ko'rsatamiz. Xizmatlar litsenziyalangan!!!",
+    "buttonText": "Batafsil"
+  },
+  "services": {
+    "title": "Xizmatlar",
+    "description": "Biz sizga samarali va kafolatli xizmat taqdim etamiz."
+  },
+  "serviseTypesHeading":"Xizmat turlari",
+    "serviceItems": {
+      "decontamination": {
+        "heading": "Dezinfeksiya - zararli mikro organizmlarni yo'q qilish",
+        "title": "Har qanday dezinfektsiyaning asosiy vazifalari infektsiyalar va kasalliklarga olib kelishi mumkin bo'lgan xavfli mikroorganizmlarni yo'q qilishdir. Dezinfeksiya choralari bu yerni mogor, virus, chiriyotgan va mikroblardan tozalaydi. Agar o'zingni yo'q qilish kerak, yoki sababsiz zaiflashsangiz kerak."
+      },
+      "insectControl": {
+        "heading": "Dezinfiksiya - hashoratlarni yo'q qilish",
+        "title": "Ko'p odamlar birinchi navbatda 'dezinfestatsiya' so'zini istalmagan qo'shnilaridan - choyshablar, barchamböcekler, chumolilar va boshqa hasharotlardan xalos bo'lish du yolini qidirganda. Ularning o'zlarini yo'qimsiz va ular ham ma'lum infeksiya tashuvchilari. Dezinseksiya - bu hasharotlarni: chivinlar, chivinlar, choyshablar, tarakanlar, kuya, shomil, qobiq qo'ng'izlari, yo'g'och bitlari va boshqa sudralib yuruvchi va uchuvchi jonzotlarni yo'q qilish. ."
+      },
+      "rodentControl": {
+        "heading": "Dezinfeksiya - kemiruvchilarni yo'q qilish",
+        "title": "Toshkentda derat sifatida kamiruvchilarni yo'qotishga qaratiladigan kompleks chora-tadbirlarning butun majmuasidir. aniqki, kemiruvchilar juda qat'iy jonzotlar bo'lib, ular turli xavfli xavf-xatarlarga dosh beradilar. Shuning uchun ularni yo'q qilish uchun bir panel usullardan foydalanish kerak. Derat joyda Toshkent shaharda kemiruvchilarda paydo boʻlgan koʻp qavmli uylar, omborlar, doʻkonlar, umumiy ovkatlanish korxonalari amalga oshiriladi."
+      }
+    },
+    "servicesTypes": [
+        {
+          "heading": "Klapalar",
+          "title": "Ular to'shakda, yumshoq mebelda to'qimachilikda, eshiq romlari va deraz romlari ostida yashaydilar. Ular odamlar va issiq qo'ng'ivonlarning qoni bilan o'zlashadi. Allergiya va og'ir psixolik noqulaylikni qo'zg'atish..."
+        },
+        {
+          "heading": "Tarakanlar",
+          "title": "Ular patogenlarni olib yuradilar. Ular yoriqlarda, taglik tagida, mebel orqasida, hammom ostida, shkaflar ostida va hokazolarda yashaydilar. Ular oshiq-ovkat, maishiy chiqindilar, charm buyumlar va qo'g'oz bilan o'zlashtiriladi."
+        },
+        {
+          "heading": "Chayon",
+          "title": "Hasharotlar va araxnidlar bilan o'zlashtiriladigan issiqlikni yaxshi ko'radigan jonzotlar. Ular omborlarda va uylarda yashashlari mumkin, lekin ko'p ko'proq ular yo'g'och binolarda topiladi ..."
+        },
+        {
+          "heading": "Kemiruvchilar",
+          "title": "Eng keng tarqalgan kalamushlar va sichqonlar. Ular patogenlarni olib yuradi, barcha sirtlarda ishlaydi, devor va shiftlarda o'tish joylarini yaratadi, strukturaning ishonchliligini pasaytiradi. Ular oshiq-ovkat va maishiy chiqindilar bilan o'zlashtiriladi..."
+        },
+        {
+          "heading": "Burgalar",
+          "title": "Ular uy xavonlari tanasiga kirib, qushnilardan ko'chib ketishadi. Ular yumshoq mebellar, ko'rpa-tushaklar, gilamlar, yumshoq o'yinchoqlar, taglik tagida va deraz va eshik romlarida yashaydilar. Ular odamlar va xavonlarning qoni bilan o'zlashadilar. Ular kasalliklarga olib keladi ..."
+        }
+      ],
+      "footer":{
+        "location":"O'zbekiston, Toshkent shahri",
+        "phone": "+998 90 044 44 01"
+      }
+    
+        
+  }
+  
